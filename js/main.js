@@ -13,7 +13,7 @@ function formatearPrecioCOP(precio) {
       categoria: "dress",
       precio: 159960,
       rating: 4.5,
-      imagen: "img/vestido1.jpg",
+      imagen: "/storage/img/vestido1.jpeg",
       descripcion: "Vestido floral de verano con corte A. 100% algodón orgánico.",
     },
     {
@@ -22,7 +22,7 @@ function formatearPrecioCOP(precio) {
       categoria: "tshirt",
       precio: 79960,
       rating: 4.2,
-      imagen: "img/camiseta1.jpg",
+      imagen: "storage/img/camisablanca.jpg",
       descripcion: "Camiseta básica de algodón. Corte clásico y cómodo.",
     },
     {
@@ -31,7 +31,7 @@ function formatearPrecioCOP(precio) {
       categoria: "jeans",
       precio: 199960,
       rating: 4.7,
-      imagen: "img/jeans1.jpg",
+      imagen: "storage/img/jeanslim.jpg",
       descripcion: "Jeans ajustados con elastano para mayor comodidad.",
     },
     {
@@ -40,7 +40,7 @@ function formatearPrecioCOP(precio) {
       categoria: "dress",
       precio: 239960,
       rating: 4.8,
-      imagen: "img/vestido2.jpg",
+      imagen: "storage/img/vestidonegro.jpg",
       descripcion: "Vestido negro para ocasiones especiales. Corte midi.",
     },
     {
@@ -49,7 +49,7 @@ function formatearPrecioCOP(precio) {
       categoria: "tshirt",
       precio: 99960,
       rating: 4.3,
-      imagen: "img/camiseta2.jpg",
+      imagen: "storage/img/camisaoverzise.png",
       descripcion: "Camiseta oversized de corte moderno. Varios colores.",
     },
     {
@@ -58,7 +58,7 @@ function formatearPrecioCOP(precio) {
       categoria: "jeans",
       precio: 219960,
       rating: 4.6,
-      imagen: "img/jeans2.jpg",
+      imagen: "storage/img/jeanmomfit.jpg",
       descripcion: "Jeans estilo mom fit. Tiro alto y ajuste perfecto.",
     },
   ]
