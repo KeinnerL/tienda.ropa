@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ecommerce</title>
 </head>
 <body>
+    <div class="contenedor-principal">
+        <div class="header">
+          <p>Hola, Bienvenido </p>
+          <div class="perfil">
+            <h2 id="nombre_usuario">Invitado</h2>
+            <img id="imagen-perfil" src="storage/img/" alt="foto">
+          </div>
+          <div class="busqueda">
+            <input type="text" placeholder="Buscar ropa...">
+            <button>Buscar</button>
+          </div>
+        </div>
     
+        <div class="filtros">
+          <button class="activo" data-filtro="all">Todos</button>
+          <button data-filtro="dress">Vestidos</button>
+          <button data-filtro="tshirt">Camisetas</button>
+          <button data-filtro="jeans">Jeans</button>
+        </div>
+    
+        <div class="productos" id="contenedor-productos">
+        </div>
+      </div>
+    
+      <div class="barra-superior">
+        <a href="index.html" class="active"></a>
+        <a href="views/checkout.html"></a>
+        <a href="views/favoritos.html"></a>
+        <a href="views/perfil.html"></a>
+      </div>
+      <script src="js/main.js"></script>
 </body>
 </html>
